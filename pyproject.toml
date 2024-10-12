@@ -1,0 +1,19 @@
+[project]
+name = "hoime-sdk"
+version = "1.0.0.0"
+authors = [
+    {name="French", email="french@hoime.cn"},
+]
+description = "Hoime official SDK toolkit"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/french-home/ethereum-scan"
+"Bug Tracker" = "https://github.com/french-home/ethereum-scan/issues"
