@@ -1,6 +1,6 @@
 [project]
 name = "hoime-sdk"
-version = "1.0.0.0"
+version = "1.0.0.1"
 authors = [
     {name="French", email="french@hoime.cn"},
 ]
@@ -15,5 +15,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/french-home/ethereum-scan"
-"Bug Tracker" = "https://github.com/french-home/ethereum-scan/issues"
+"Homepage" = "https://github.com/hoime-wock/hoime_sdk"
+"Bug Tracker" = "https://github.com/hoime-wock/hoime_sdk/issues"
