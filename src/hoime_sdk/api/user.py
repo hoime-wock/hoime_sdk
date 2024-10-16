@@ -41,8 +41,8 @@ class UserApi(object):
         self.base_url = "http://user.hoime.vip/api"
         # 设置请求头
         self.headers = {
-            "Code": self.code,
-            "Key": self.key
+            "HoimeCode": self.code,
+            "HoimeKey": self.key
         }
         # 是否赋值BaseUrl
         if base_url is not None:
@@ -62,7 +62,7 @@ class UserApi(object):
         Returns:
             json
         """
-        url = self.base_url + "/login"
+        url = self.base_url + "/api/v1/login"
         data = {
             "email": email,
             "password": password
