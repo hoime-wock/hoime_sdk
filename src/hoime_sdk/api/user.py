@@ -25,7 +25,7 @@ class UserApi(object):
         """
         开发人员: French \n
         @创建时间: 2024-10-03 \n
-        @修改时间: 2024-10-03 \n
+        @修改时间: 2024-11-07 \n
         @功能描述: 初始化 \n
 
         Args:
@@ -38,7 +38,7 @@ class UserApi(object):
         """
         self.code = code
         self.key = key
-        self.base_url = "http://user.hoime.vip/api"
+        self.base_url = "https://user.hoime.vip/api"
         # 设置请求头
         self.headers = {
             "HoimeCode": self.code,
@@ -72,3 +72,4 @@ class UserApi(object):
             return response.json()
         except requests.exceptions.ConnectionError:
             print("请求失败")
+            raise requests.exceptions.ConnectionError

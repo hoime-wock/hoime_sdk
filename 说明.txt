@@ -1,0 +1,10 @@
+# 升级 build
+pip install --upgrade build
+# 编译
+python3 -m build
+
+# 安装 twine
+pip install --upgrade twine
+
+# 上传
+twine upload --repository pypi dist/*
